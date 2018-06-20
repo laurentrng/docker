@@ -2,11 +2,11 @@
 
 Create a simulator that send temperature data in the following JSON format:
 
-{
-  ts: TIMESTAMP
-  type: "temp"
-  value: VALUE,
-  sensor_id: ID_OF_THE_DEVICE_SENDING_THE_DATA
+{ \
+  ts: TIMESTAMP\
+  type: "temp"\
+  value: VALUE,\
+  sensor_id: ID_OF_THE_DEVICE_SENDING_THE_DATA\
 }
 
 For instance, a valid data could be the following one
