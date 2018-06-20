@@ -24,9 +24,9 @@ In the real world, those data would be sent by a real device and represent the t
 
 The simulator can be done in any language, on the current example it's done in bash shell. It's a very minimal, and only
 
-    get the current date
-    generate a random number for the temperature (quite hot location btw)
-    send the data in JSON using the curl command (note: the targeted API will run on port 1337 as we will see in the next step)
-    wait 1 seconds and repeat
+  - get the current date
+  - generate a random number for the temperature (quite hot location btw)
+  - send the data in JSON using the curl command (note: the targeted API will run on port 1337 as we will see in the next step)
+  - wait 1 seconds and repeat
 
 An example of the simulator is provided in the step0 folder, you can copy it to the root of the iot-api folder.
